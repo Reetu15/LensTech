@@ -1,6 +1,0 @@
-[theme]
-base="light"
-primaryColor="#8FBC8F"  # Matcha Green (for buttons and sliders)
-backgroundColor="#FAF5E6" # Cream Beige (main application background)
-secondaryBackgroundColor="#F0EADE" # Linen Tan (for input boxes/widgets)
-textColor="#31333F" # Standard dark text for readability
