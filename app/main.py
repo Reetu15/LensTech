@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 from app.routers import analyze
 
-app = FastAPI(title="ScreenSense AI")
+app = FastAPI(title="LensTech")
 
 # Link our separate routing file to the main application
 app.include_router(analyze.router)
