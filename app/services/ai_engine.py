@@ -11,7 +11,7 @@ def analyze_image_with_gemini(file_path: str, prompt: str) -> str:
     
     # 2. Feed the image and the prompt to the Gemini 3.6 Flash model
     response = client.models.generate_content(
-        model="gemini-3.6-flash", 
+       model="gemini-1.5-flash",
         contents=[uploaded_image, prompt]
     )
     
